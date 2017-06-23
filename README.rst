@@ -6,4 +6,8 @@ Purpose of this repository is to make the installation of `Cloud Foundry`_ easie
 To avoid this very error-prone steps, I created Ansible playbooks that will take care of IaaS configuration, BOSH director installation, and finally installation of Cloud Foundry with Diego.
 
 
+* `Installation Documentation`_
+
 .. _`Cloud Foundry`: http://www.cloudfoundry.org
+
+.. _`Installation Documentation`: http://cloudfoundry-installation.readthedocs.io
