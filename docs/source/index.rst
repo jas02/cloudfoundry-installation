@@ -10,6 +10,7 @@ Welcome to Cloud Foundry Installation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   open_stack/index
    glossary
 
 Indices and tables
