@@ -6,11 +6,11 @@ First, you have to ask your OpenStack administrator to create for you OpenStack 
 Hardware Requirements
 ----------------------
 
-+-----------+-------+-----+---------+----------------+
-| Instances | VCPUs | RAM | Volumes | Volume Storage |
-+-----------+-------+-----+---------+----------------+
-| 21        | 50    | 90  | 48      | 1.2TB          |
-+-----------+-------+-----+---------+----------------+
++-----------+-------+------+---------+----------------+
+| Instances | VCPUs | RAM  | Volumes | Volume Storage |
++-----------+-------+------+---------+----------------+
+| 21        | 50    | 90GB | 48      | 1.2TB          |
++-----------+-------+------+---------+----------------+
 
 Assign Floating IP and Create DNS Record
 -----------------------------------------
@@ -19,7 +19,7 @@ To be allow access you Cloud Foundry instance from the outside OpenStack, you mu
 
 To get Floating IP , you can use script in `bin/cfi-assign-floating-ip.py`. But before you can run the script, you have to create configuration file `clouds.yam` and place it into the right directory. In case that you are using Linux, the directory is `~/.config/openstack`.
 
-.. code:: yaml
+.. code-block:: yaml
    clouds:
        mordred:
            region_name: RegionOne
