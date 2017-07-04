@@ -11,7 +11,7 @@
 import shade
 
 shade.simple_logging()
-cloud = shade.openstack_cloud(cloud='onecloud')
+cloud = shade.openstack_cloud(cloud='osinstancename')
 
 def get_floating_ip_address(cloud):
     """Get floating IP address"""
