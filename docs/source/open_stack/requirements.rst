@@ -19,7 +19,8 @@ To be allow access you Cloud Foundry instance from the outside OpenStack, you mu
 
 To get Floating IP , you can use script in `bin/cfi-assign-floating-ip.py`. But before you can run the script, you have to create configuration file `clouds.yam` and place it into the right directory. In case that you are using Linux, the directory is `~/.config/openstack`.
 
-.. code-block:: yaml
+.. code:: yaml
+
    clouds:
        mordred:
            region_name: RegionOne
